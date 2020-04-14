@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3C5A5D85-BB0F-4C1A-8B4C-403C270E28B9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>center</RootNamespace>
+    <AssemblyName>center</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationIcon>center.ico</ApplicationIcon>
+    <StartupObject>center.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\..\a\Application Files\center_3_0_0_30\a\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="LogIn Theme Dll By xVenoxi">
+      <HintPath>..\..\a\Application Files\center_3_0_0_30\a\LogIn Theme Dll By xVenoxi.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="theme">
+      <HintPath>..\..\a\Application Files\center_3_0_0_30\a\theme.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MonoFlat\MonoFlat_Button.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MonoFlat\MonoFlat_CheckBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MonoFlat\MonoFlat_ControlBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MonoFlat\MonoFlat_HeaderLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MonoFlat\MonoFlat_Label.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MonoFlat\MonoFlat_LinkLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MonoFlat\MonoFlat_NotificationBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MonoFlat\MonoFlat_Panel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MonoFlat\MonoFlat_RadioButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MonoFlat\MonoFlat_Separator.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MonoFlat\MonoFlat_SocialButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MonoFlat\MonoFlat_TextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MonoFlat\MonoFlat_ThemeContainer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MonoFlat\MonoFlat_Toggle.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MonoFlat\MonoFlat_TrackBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MonoFlat\RoundRectangle.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <DependentUpon>Settings.settings</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Tool_Cyborg_V\_3_Black_Ops_II\NSGroupBox.cs" />
+    <Compile Include="Tool_Cyborg_V\_3_Black_Ops_II\NSTabControl.cs" />
+    <Compile Include="Tool_Cyborg_V\_3_Black_Ops_II\NSTheme.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resources" />
+    <EmbeddedResource Include="Form2.resources" />
+    <EmbeddedResource Include="Form3.resources" />
+    <EmbeddedResource Include="Properties\Resources.resources" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
