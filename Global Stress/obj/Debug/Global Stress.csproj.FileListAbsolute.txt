@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\oldmodz95\tools\Global Stress\source\Global Stress\bin\Debug\Global Stress.exe.config
+C:\Users\HP\Desktop\oldmodz95\tools\Global Stress\source\Global Stress\bin\Debug\Global Stress.exe
+C:\Users\HP\Desktop\oldmodz95\tools\Global Stress\source\Global Stress\bin\Debug\Global Stress.pdb
+C:\Users\HP\Desktop\oldmodz95\tools\Global Stress\source\Global Stress\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\HP\Desktop\oldmodz95\tools\Global Stress\source\Global Stress\bin\Debug\theme.dll
+C:\Users\HP\Desktop\oldmodz95\tools\Global Stress\source\Global Stress\obj\Debug\Global Stress.csprojResolveAssemblyReference.cache
+C:\Users\HP\Desktop\oldmodz95\tools\Global Stress\source\Global Stress\obj\Debug\Global Stress.exe
+C:\Users\HP\Desktop\oldmodz95\tools\Global Stress\source\Global Stress\obj\Debug\Global Stress.pdb
